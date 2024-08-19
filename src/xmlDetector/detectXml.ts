@@ -45,7 +45,7 @@ export const detectXml = async () => {
         }
     }));
 
-	setStatusBarXmlCount(xmlCount);
+    setStatusBarXmlCount(xmlCount);
 };
 
 export const detectXmlCommand = vscode.commands.registerCommand(DETECT_XML_COMMAND, detectXml);
