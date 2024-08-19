@@ -6,15 +6,15 @@ The main purpose of this extension is to demonstrate how to write simple VS code
 ## Features
 
 The extension displays number of XML files from all worskaces in the status bar.
-Extension is working right from the start of the VS code or you can execute i
-manually by `Detect XML files` command from command palette. Extension listens on
-create/delete/rename file and when changing workspaces.
+Extension is working right from the start of the VS code or you can execute it
+manually by `Detect XML files` command from the command palette. Extension listens to
+create/delete/rename file events and to changes in workspace.
 
 ![XML Detector](images/XMLDetector.gif "XML Detector preview")
 
 ## How to run
 
-Just press CTRL+F5 in the extension directory to startup the extension.
+Just press CTRL+F5 in the extension directory to startup the extension in debug mode.
 
 ## Requirements
 
